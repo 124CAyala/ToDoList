@@ -1,0 +1,11 @@
+/* font-family: 'Archivo', sans-serif;
+font-family: 'Julius Sans One', sans-serif; */
+.heading {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+}
+.sub-heading {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
