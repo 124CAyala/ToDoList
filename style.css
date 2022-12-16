@@ -9,9 +9,56 @@ font-family: 'Julius Sans One', sans-serif; */
     font-size: 35px;
     text-decoration: underline;
 }
+.notes {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 35px;
+}
 .scongi {
-  font-size: 20px;
-  
+  font-family: 'Archivo', sans-serif;
+  font-size: 25px;
+}
+.binga {
+  font-size: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+}
+.bungus {
+  border-left: 1px black solid;  
+}
+.bungi {
+  border-right: 1px black solid;
+}
+.bundungi{
+  list-style-type: none !important;
+  font-size: 45px;
+  font-family: 'Archivo', sans-serif;
+}
+.iscaro{
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  background-color: transparent;
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 5px #8bc99c solid;
+}
+.iscaro:hover {
+  background-color: lightgray;
+}
+.dungi {
+  background-color: transparent;
+  border: none;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+}
+.bindiri {
+  margin-bottom: 0px;
+}
+.name{
+  font-family: 'Archivo', sans-serif;
+  font-size: 35px;
 }
 body{
     font-family: Tahoma;
@@ -75,20 +122,28 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #9361bf;
+    border-color: #8bc99c;
 }
 
 .delete{
     float: right;
-    background: #9361bf;
+    background: #8bc99c;
     padding: 6px;
-    border-radius: 4px;
+    border-radius: 1px;
     cursor: pointer;
-    color: white;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 3px solid black;
+    border-color: black;
+    font-size: 20px;
 }
 
 .delete:hover{
-    background: #333;
+    background: white;
+    border-color: #2E3532;
+    color: #8bc99c;
 }
 
 #add-book{
@@ -109,8 +164,8 @@ h1, h2{
 }
 
 #add-book button{
-    border: 1px solid #9361bf;
-    background: #9361bf;
+    border: 1px solid #8bc99c;
+    background: #8bc99c;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;

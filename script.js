@@ -70,3 +70,43 @@ searchBar.addEventListener('keyup', function(e) {
     }
   })
 })
+
+//Making greetings based on the hour
+const a = new Date();
+let hour = a.getHours();
+
+// if (hour < 6) {
+//   document.getElementById("greeting").innerHTML = 'Good Night!'
+// } else if (hour < 12) {
+//   document.getElementById("greeting").innerHTML = 'Good Morning!'
+// } else if (hour < 17) {
+//   document.getElementById("greeting").innerHTML = 'Good Afternoon!'
+// } else if (hour < 21) {
+//   document.getElementById("greeting").innerHTML = 'Good Evening!'
+// } else {
+//   document.getElementById("greeting").innerHTML = 'Good Night!'
+// }
+// console.log(date);
+//day = date
+const b = new Date();
+let day = b.getDate();
+console.log(day);
+
+//theName = name of month
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const c = new Date();
+let theName = month[c.getMonth()];
+console.log(theName);
+
+//year obv
+const d = new Date();
+let year = d.getFullYear();
+
+//Prints whole date in full sent.
+function date() {
+  let date = `Today is ${theName} ${day} , ${year}.`
+  document.getElementById("date").innerHTML = date;
+  document.getElementById("month").innerHTML = theName;
+}
+window.onload = date();
